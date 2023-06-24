@@ -11,3 +11,9 @@ body{
 }
 
 
+.card {
+    position: absolute;
+    left: 300px;
+    top: 0px;
+    width: 18rem;
+  }
