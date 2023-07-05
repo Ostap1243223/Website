@@ -5,6 +5,7 @@ h1{
 }
 
 
+
 body{
     font-family: 'Comfortaa', cursive;
     background-color:rgb(149, 110, 255);
@@ -108,7 +109,7 @@ display: none;
   width: 100%;
   height: 100%;
   background-color: #2b2e38;
-  background-image: url('/img/pattern_japanese-pattern-2_1_2_0-0_0_1__ffffff00_000000.png');
+  background-image: url('file:///D:/%D0%9E%D1%81%D1%82%D0%B0%D0%BF/Progect/MyWebsite/static/img/foto.jpg');
   position: absolute;
   border-radius: 6px;
   -webkit-transform-style: preserve-3d;
