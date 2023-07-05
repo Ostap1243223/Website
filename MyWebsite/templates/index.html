@@ -21,6 +21,10 @@
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9" aria-label="Slide 10"></button>
         </div>
+        <div class="logikablog text-white text-center position-absolute top-50 start-50 translate-middle z-3">
+          <h1>Wonderful World</h1>
+          <h2>Тури десятьма країнами Європи!</h2>
+      </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="{{ url_for('static', filename='img/slide1.jpg') }}" class="d-block w-100" alt="...">
@@ -130,6 +134,7 @@
             <p class="card-text">{{post[4]}}</p>
             <a href="{{url_for('post', post_id = post[0])}}" class="card-link stretched-link"></a>
           </div>
+        </div>
         {% endfor %}
           
           </div>
