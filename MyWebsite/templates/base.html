@@ -25,7 +25,7 @@
     <!-- Тіло: увесь вміст сторінки -->
     <header class='container-fluid m-0 p-0'>
         <!-- Шапка сайту: назва, логотип, навігація -->
-        <nav class="navbar navbar-expand-lg " style = "background-color:rgb(224, 192, 255);">
+        <nav class="navbar navbar-expand-lg " style = "background-color:#ffeba7;">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Турагенство</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,12 +49,7 @@
                       {% endfor %}
                     </ul>
                   </li>
-                  
                 </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-danger" type="submit">Search</button>
-                </form>
               </div>
             </div>
           </nav>
@@ -65,12 +60,12 @@
 
     <footer>
         <!-- Підвал сайту: про сайт, автор, контакти тощо -->
-        <div class="section">
+        <div class="section bg-dark">
           <div class="container">
             <div class="row full-height justify-content-center">
               <div class="col-12 text-center align-self-center py-5">
                 <div class="section pb-5 pt-5 pt-sm-2 text-center">
-                  <h6 class="mb-0 pb-3"><span>Log In </span><span>Sign Up</span></h6>
+                  <h6 class="mb-0 pb-3 "><span>Log In </span><span>Sign Up</span></h6>
                         <input class="checkbox" type="checkbox" id="reg-log" name="reg-log"/>
                         <label for="reg-log"></label>
                   <div class="card-3d-wrap mx-auto">
@@ -87,7 +82,7 @@
                               <input type="password" class="form-style" placeholder="Password">
                               <i class="input-icon uil uil-lock-alt"></i>
                             </div>
-                            <a class="btn mt-4">Login</a>
+                            <a class="btn mt-4 text-warning">Login</a>
                             
                               </div>
                             </div>
@@ -112,7 +107,8 @@
                               <input type="password" class="form-style" placeholder="Password">
                               <i class="input-icon uil uil-lock-alt"></i>
                             </div>
-                            <a  class="btn mt-4">Register</a>
+                            <a class="btn mt-4 text-warning">Register</a>
+                            
                               </div>
                             </div>
                           </div>

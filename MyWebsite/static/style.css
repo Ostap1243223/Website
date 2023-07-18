@@ -1,18 +1,23 @@
 h1{
-    color: #fff;
+    color: #ffffff;
     font-size: 50px;
     
 }
-
-
-
-body{
-    font-family: 'Comfortaa', cursive;
-    background-color:rgb(149, 110, 255);
+h6{
+  color:#ffeba7;
 }
 
+h4{
+  color:#ffeba7;
+}
 
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
+.btn{
+  color:#ffeba7;
+}
+a{
+  color:#ffeba7;
+}
+
 body{
 	font-family: 'Poppins', sans-serif;
 	font-weight: 300;
@@ -131,10 +136,11 @@ display: none;
   display: block;
 }
 .form-group{ 
+  color:#ffeba7;
   position: relative;
   display: block;
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 .form-style {
   padding: 13px 20px;
@@ -185,11 +191,11 @@ display: none;
   display: -ms-inline-flexbox;
   display: inline-flex;
   align-items: center;
-  background-color: #ffeba7;
+  background-color: #ad8605;
   color: #000000;
 }
 .btn:hover{  
   background-color: #000000;
-  color: #ffeba7;
+  color: #ad8500;
   box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
 }
