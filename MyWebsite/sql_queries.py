@@ -68,3 +68,4 @@ def get_categorys():
     conn.commit()
     close()
     return data
+

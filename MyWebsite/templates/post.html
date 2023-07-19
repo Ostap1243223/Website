@@ -8,10 +8,13 @@
 <main class="container bg-dark">
     <div class="card m-2 bg-dark">
         <img src="{{ url_for('static', filename='img/' + post[5]) }}" class="card-img-top" alt="...">
-        <div class="card-body">
+        <div class="card-body bg-dark">
           <h5 class="card-title text-white">{{post[3]}}</h5>
           <h6 class="card-subtitle mb-2 text-body-secondary"></h6>
           <p class="card-text text-white">{{post[4]}}</p>
+          <div class = "card-text text-white">{{post[6] | safe}}</div>
+          <button type="button" class="btn btn-light">Замовити</button>
+          
           
         </div>
 </main>

@@ -1,7 +1,9 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request, flash
 from sql_queries import*
 
+
 app = Flask(__name__)
+
 
 @app.route("/")
 @app.route("/index")
@@ -23,6 +25,8 @@ def post(post_id):
     post = get_post(post_id)
     category_list = get_categorys()
     return render_template("post.html",category_list = get_categorys(), post=post)
+
+
 
 
 if __name__ == '__main__':
